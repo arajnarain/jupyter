@@ -1,0 +1,4 @@
+import tensorflow tf
+name = tf.constant('Hi! I'm Aiswarya!')
+sess= tf.Session()
+print(sess.run(name))
